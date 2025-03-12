@@ -12,7 +12,7 @@ pipeline {
         stage('run') {
             steps {
                 echo 'running'
-                bat 'SYM.java'
+                bat 'java SYM.java'
                 
             }
         }
